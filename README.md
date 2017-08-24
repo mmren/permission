@@ -1,8 +1,6 @@
 # permission
-## 安卓授权
 ### 实例代码
-···
- private void read_sms() {
+··· private void read_sms() {
         if (UserProfile.getInstance(activity).getUploadFlagBean().getMessages().equals("0")) {
             String[] strs = new String[]{Manifest.permission.READ_SMS, Manifest.permission.RECEIVE_SMS};
             PermissionManager.getInstance(activity).getpermissions(strs, new GetPermissonsCallback("请打开读取短信权限") {
@@ -18,5 +16,4 @@
         }else {
             read_call_log();
         }
-    }
-···
+    } ···
