@@ -1,6 +1,6 @@
 # permission
-##安卓授权
-###实例代码
+## 安卓授权
+### 实例代码
 ···
  private void read_sms() {
         if (UserProfile.getInstance(activity).getUploadFlagBean().getMessages().equals("0")) {
