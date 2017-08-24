@@ -14,3 +14,4 @@ public abstract class GetPermissonsCallback {
 
     public  abstract  void  requestPermissions();
     public  void  AfterRequestPermissions(boolean isSuccess){};
+}

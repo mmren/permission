@@ -10,7 +10,6 @@
                 public void requestPermissions() {
                     Notes();
                 }
-
                 @Override
                 public void AfterRequestPermissions(boolean isSuccess) {
                     read_call_log();
