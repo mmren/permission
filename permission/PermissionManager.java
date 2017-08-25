@@ -123,9 +123,11 @@ public class PermissionManager {
                 callback.AfterRequestPermissions(true);
             } else {
                 callback.requestPermissions();
+                callback.AfterRequestPermissions(true);
             }
         } else {
             callback.requestPermissions();
+            callback.AfterRequestPermissions(true);
         }
 
 
