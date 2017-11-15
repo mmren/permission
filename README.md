@@ -1,6 +1,7 @@
 # permission
 ### 实例代码
 ```
+private static final int REQUEST_CODE_CONTACTES = PermissionManager.getRequestCode();
 private void read_sms() {
         if (UserProfile.getInstance(activity).getUploadFlagBean().getMessages().equals("0")) {
             String[] strs = new String[]{Manifest.permission.READ_SMS, Manifest.permission.RECEIVE_SMS};
